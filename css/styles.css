@@ -1,0 +1,464 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* COMMON Styles */
+
+h2 {
+    color: white;
+
+    font-size: 36px;
+    font-weight: lighter;
+
+    margin-top: 100px;
+}
+
+/* END COMMON Styles */
+
+.page-container {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+}
+
+
+/* TOP Section Styles*/
+
+
+#top {
+    display: flex;
+    width: 97%;
+    height: 700px;
+}
+
+/* TOP Section Left Side Styles */
+
+
+.top-left {
+    background-color: black;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TOP Section's MUTUAL Styles */
+
+
+/* .top-left-header, .top-right-header {
+    color: white;
+
+    font-size: 36px;
+    font-weight: lighter;
+
+    margin-top: 100px;
+
+} */
+
+
+/* END TOP Section's MUTUAL Styles */
+
+.top-list-container {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.top-list {
+    text-align: center;
+
+    padding-left: 0;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.top-list-item {
+    margin-top: 15px;
+
+    width: 100%;
+
+    cursor: pointer;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top-list-link {
+    color: white;
+
+    font-size: 20px;
+}
+
+/* COLORFUL Hover Effects Styles */
+
+
+.top-list-item:nth-child(1):hover {
+    background-color: #607d8b;
+}
+
+.top-list-item:nth-child(2):hover {
+    background-color: #009688;
+}
+
+.top-list-item:nth-child(3):hover {
+    background-color: gray;
+}
+
+.top-list-item:nth-child(4):hover {
+    background-color: #795548;
+}
+
+
+/* END COLORFUL Hover Effects Styles */
+
+
+/* END TOP Section Left Side Styles */
+
+
+/* TOP Section Right Side Styles */
+
+
+.top-right {
+    background-color: #607d8b;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-right-img {
+    background-image: url("../assets/avatar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 50%;
+
+    width: 300px;
+    height: 300px;
+
+    margin-top: 30px;
+}
+
+.top-right-detail {
+    color: white;
+
+    font-size: 18px;
+    font-weight: 100;
+
+    width: 80%;
+
+    margin-top: 30px;
+}
+
+.top-right-detail p:nth-child(2) {
+    margin-top: 30px;
+}
+
+
+/* END TOP Section Right Side Styles */
+
+
+/* END TOP Section Styles*/
+
+
+/* MIDDLE Section Styles */
+
+#middle {
+    display: flex;
+
+    width: 97%;
+    height: 800px;
+}
+
+
+
+/* MIDDLE LEFT Side Styles */
+
+.middle-left {
+    width: 50%;
+}
+
+.middle-left p {
+    font-size: 18px;
+
+    text-align: center;
+}
+
+.middle-left-content {
+    text-align: center;
+}
+
+.middle-left-content h2 {
+    color: black;
+}
+
+.middle-left-content p {
+    font-size: 18px;
+
+    margin-top: 15px;
+    margin-bottom: 60px;
+ }
+
+.middle-left-image-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.middle-left-image-container img {
+    width: 50%;
+}
+
+
+/* [class*="left-image-container"] > img{
+    width: 201px;
+    height: 92px;
+} */
+
+
+
+/* END MIDDLE LEFT Side Styles */
+
+
+
+/* MIDDLE RIGHT Side Styles */
+
+.middle-right {
+    background-color: #3F51B5;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.middle-right-content {
+    width: 90%;
+    text-align: center;
+}
+
+.middle-right-content p {
+    color: white;
+
+    font-size: 18px;
+
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    color: white;
+
+    font-size: 18px;
+    text-align: left;
+}
+
+th {
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+td {
+    padding: 15px;
+    font-size: 17px;
+
+    text-align: left;
+    vertical-align: top;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+tbody > tr:nth-child(even) {
+    color: white;
+}
+
+/* END MIDDLE RIGHT Side Styles */
+
+
+/* END MIDDLE Section Styles */
+
+
+
+/* BOTTOM Section Styles */
+
+#bottom {
+    display: flex;
+    
+    width: 97%;
+    height: 700px;
+}
+
+
+/* BOTTOM Left Side Styles */
+
+.bottom-left-side {
+    background-color: #616161;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 50%;
+
+    text-align: center;
+}
+
+.personal-info {
+    margin-top: 140px;
+
+    color: white;
+    font-size: 17px;
+}
+
+.personal-info p {
+    padding-bottom: 18px;
+}
+
+/* END BOTTOM Left Side Styles */
+
+
+/* BOTTOM Right Side Styles */
+
+.bottom-right-side {
+    background-color: #009688;
+
+    display: flex;
+    flex-direction: column;
+        
+    width: 50%;
+
+    text-align: left;
+}
+
+.bottom-right-side > h2 {
+    color: white;
+    margin: 100px 0 15px 35px;
+
+}
+
+.bottom-right-side > p {
+    color: white;
+    margin-left: 35px;
+    margin-bottom: 12px;
+}
+
+form {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+ 
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 15px;
+    
+    border: none;
+
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 20%);
+}
+
+label {
+    font-size: 17px;
+}
+
+input {
+    height: 40px;
+
+    border: none;
+    border-bottom: 1px solid #ccc;
+
+    margin-bottom: 12px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    background-color: #009688;
+    color: white;
+    
+    border: none;
+    
+    width: 12%;
+
+    padding: 10px 5px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: #c7c7c7;
+    color: black;
+}
+
+/* END BOTTOM Right Side Styles */
+
+
+
+/* END BOTTOM Section Styles */
+
+
+
+
+/* FOOTER Section Styles*/
+
+footer {
+    background-color: black;
+    width: 97%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+
+    padding-left: 10px;
+}
+
+.footer-content p {
+    color: white;
+    font-size: 17px;
+
+    padding-right: 5px;
+}
+
+.footer-content a {
+    color: white;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+/* END FOOTER Section Styles*/
